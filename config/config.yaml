@@ -1,2 +1,5 @@
 samples: config/samples.tsv
 units: config/units.tsv
+star_index: <star_index_dir_path>
+ref_gtf: <reference_annotation_gtf_file_path>
+bc_whitelist: <10x_barcode_whitelist_file_path>

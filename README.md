@@ -1,6 +1,6 @@
-### Snakemake bioinformatics data processing pipeline template
+### Snakemake STARSolo 10X 3' and 5' single-cell RNA-seq data processing pipeline
 
-This template follows the best practices and reproducibility specification by [Snakemake](https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html#distribution-and-reproducibility).
+
 
 #### Directory structure
 

@@ -6,10 +6,9 @@ conda: "envs/global_env.yaml"
 # Import config file so all included scripts have access to config data
 configfile: "config/config.yaml"
 
+include: "rules/starsolo.smk"
 include: "rules/commons.smk"
-include: "rules/test.smk"
 
 rule all:
     input: 
-        expand("results/test/{id}_test_with_param.txt", id=samples['sample_id']),
-        expand("results/test/{id}_conditional.txt", id=samples['sample_id']),
+        expand("results/star_solo/{id}/{id}.SJ.out.tab", id=samples['sample_id']),

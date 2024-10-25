@@ -1,3 +1,3 @@
-sample_id	path
-sample_1	<full path for sample_1>
-sample_2	<full path for sample_2>
+sample_id	umi_bc_read	tx_read
+sample_1	<file_path>	<file_path>
+sample_2	<file_path>	<file_path>
